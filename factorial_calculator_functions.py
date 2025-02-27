@@ -4,8 +4,7 @@ def get_non_negative_integer() -> int:
             num = int(input("Enter a non-negative integer: "))
             if num >= 0:
                 return num
-            else:
-                print("Error: Please enter a non-negative integer.")
+            print("Error: Please enter a non-negative integer.")  # No need for else
         except ValueError:
             print("Error: Invalid input. Please enter a valid integer.")
 
